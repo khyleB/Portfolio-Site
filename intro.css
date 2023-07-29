@@ -1,0 +1,270 @@
+header.intro-box {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 80px;
+
+}
+
+header.intro-box h4 {
+	position: absolute;
+	left: 10%;
+	bottom: 1rem;
+	font-size: 1.6rem;
+}
+
+.intro {
+	position: fixed;
+	z-index: 11;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #161616;
+	transition: 0.5s;
+}
+
+.enter-header {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform:  translate(-50%, -50%);
+	color: #ffffff;
+
+}
+
+.enter {
+	position: relative;
+	display: inline-block;
+	bottom: -20px;
+	opacity: 0;
+	z-index: 11;
+}
+
+.enter.active {
+	bottom: 0;
+	opacity: 1;
+	transition: ease-in-out 0.5s;
+}
+
+.enter.fade {
+	bottom: 150px;
+	opacity: 0;
+	transition: ease-in-out 0.5s;
+}
+
+/*            -------------------SPLASH BAR: DESKTOP -------------------- */
+
+@media (min-width: 1150px) {
+
+		.mobile-nav {
+		display: none;
+	}
+
+	#splash-contents {
+		transform: translate(0%, 10%);
+		padding: 0 20%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	#splash-contents #navbar {
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 2.5%;
+	}
+
+	#splash-contents #sitehead {
+		top: 0;
+		color: #708C00;
+		background-color: white;
+		z-index: 10;
+		border: none;
+		padding: none;
+		margin: none;
+	}
+
+	#splash-contents #logo-text {
+		font-family: Impact, fantasy;
+		font-size: 2.5em;
+	}
+
+	#splash-contents #logo {
+		width: 300px;
+		height: auto;
+	}
+
+	#splash-contents .centered {
+	  position: inherit;
+	  font-family: Impact, fantasy;
+	  font-size: 23px;
+	}
+
+	#splash-contents h2 {
+		font-size: 200%;
+	}
+
+	#splash-contents .nav-style {
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 300%;
+		font-family: 'Limelight', Impact, fantasy;
+		margin: 100;
+		width: 100%;
+		border: none;
+		color: #161616;
+		background-color: white;
+	}
+}
+
+/*            -------------------SPLASH BAR: TABLET -------------------- */
+
+@media (min-width: 835px) and (max-width: 1151px) {
+
+	.mobile-nav {
+		display: none;
+	}
+
+	#splash-contents {
+		transform: translate(0%, 10%);
+		padding: 0 20%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	#splash-contents #navbar {
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 2.5%;
+	}
+
+	#splash-contents #sitehead {
+		/*position: sticky;*/
+		top: 0;
+		color: #708C00;
+		background-color: white;
+		z-index: 10;
+		border: none;
+		padding: none;
+		margin: none;
+	}
+
+	#splash-contents #logo-text {
+		font-family: Impact, fantasy;
+		font-size: 1.5em;
+	}
+
+	#splash-contents #logo {
+		width: 260px;
+		height: auto;
+	}
+
+	#splash-contents .centered {
+	  position: inherit;
+	  font-family: Impact, fantasy;
+	  font-size: 13px;
+	}
+
+	#splash-contents h2 {
+		font-size: 150%;
+	}
+
+	#splash-contents h1 {
+		size: 67%;
+	}
+
+	#splash-contents .nav-style {
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 300%;
+		font-family: 'Limelight', Impact, fantasy;
+		margin: 100;
+		width: 100%;
+		border: none;
+		color: #161616;
+		background-color: white;
+	}
+}
+
+/*            -------------------SPLASH BAR: MOBILE -------------------- */
+
+@media (max-width: 836px) {
+
+	.desktop-nav {
+		display: none;
+	}
+
+	#splash-contents {
+		transform: translate(0%, 10%);
+		padding: 0 20%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	#splash-contents #navbar {
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 2.5%;
+	}
+
+	#splash-contents #sitehead {
+		/*position: sticky;*/
+		top: 0;
+		color: #708C00;
+		background-color: white;
+		z-index: 10;
+		border: none;
+		padding: none;
+		margin: none;
+	}
+
+	#splash-contents #logo-text {
+		font-family: Impact, fantasy;
+		font-size: 1em;
+	}
+
+	#splash-contents #logo {
+		width: 225px;
+		height: auto;
+	}
+
+	#splash-contents .centered {
+	  position: inherit;
+	  font-family: Impact, fantasy;
+	  font-size: 8px;
+	}
+
+	#splash-contents h2 {
+		font-size: 140%;
+	}
+
+	#splash-contents h1 {
+		font-size: 250%;
+	}
+
+	#splash-contents .nav-style {
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 200%;
+		font-family: 'Limelight', Impact, fantasy;
+		margin: 100;
+		width: 100%;
+		border: none;
+		color: #161616;
+		background-color: white;
+	}
+
+}

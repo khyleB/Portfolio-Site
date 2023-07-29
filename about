@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Contact</title>
+		
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Limelight&display=swap">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600;700&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="/contact-form-style.css">
+		
+		
+	</head>
+	<body>
+
+		<header id="header">
+			<div align="center">
+				<div id="logo">
+				<img id="logo" src="imgs/logo.png">
+				<div class="centered"><p id="logo-text">K.BEST</p></div>
+			</div>
+				<nav id="full-navbar">
+					<span class="navbar-text" id="dropdown-button">
+						<button class="nav-style" id="menubutton" onclick="location.href='/dev-portfolio'">Web Dev
+						</button>
+
+						<div class="dropdown-contents">
+							<a href="https://khyleb.github.io/SH0RT_C1RCU1T/">SH0RT_C1RCU1T</a>
+							<a href="http://kbest.ca/portfolio-website">Portfolio Website</a>
+							<a href="http://kbest.ca/space-meanies/">Space Meanies</a>
+							<a href="http://kbest.ca/simon-says/">Simon Says</a>
+						</div>
+					</span>
+
+					<span class="navbar-text" id="dropdown-button">
+						<button class="nav-style" id="menubutton" onclick="location.href='/design-portfolio'">Design
+						</button>
+
+						<div class="dropdown-contents">
+
+							<a href="/logos">Logo Redesigns</a>
+							<a href="/robo">Buffer</a>
+							<a href="/corners">Corners</a>
+							<a href="/drum">Drum Dictionary Cover</a>
+							<a href="/breaking">Breaking</a>
+							<a href="/kitchen">Nothing to Eat</a>
+							<a href="/macaroni">Step-By-Step Macaroni</a>
+							<a href="/bedtime">Bedtime Blues</a>
+							<a href="/contact">In Contact</a>
+						</div>
+					</span>
+
+					<span class="navbar-text"><button class="nav-style" onclick="location.href='/about'">Contact</button></span>
+				</nav>
+			</div>
+		</header>
+
+		<div align="center" id="full-contents-about">
+			<span class="text-contents-about">
+				<h1>L. Khyle Best</h1>
+				<h2>Is a web developer & published artist based in the G.T.A.</h2>
+
+					<br>
+				
+				<p class="about-text">That's me! I have been freelancing for largely private clients over the last decade, and am comfortable working on both web development and all manner of design projects. To get in touch for your next project, just contact me using the form below.</p>
+			</span>
+
+			<span class="img-contents-about">
+				<img src="imgs/about-img.png">
+			</span>
+		</div>
+			
+            <div id="contact-form-container">
+                <h1 id="form-title">Contact Form</h1>
+                <form id="contact-form">
+                    <span class="contact-form-section"><label class="form-subtitle">Name</label>
+                    <input type="text" name="user_name" class="contact-form-field"></span>
+                    <br>
+                    <span class="contact-form-section"><label class="form-subtitle">Email</label>
+                    <input type="email" name="user_email" class="contact-form-field"></span>
+                    <br>
+                    <span class="contact-form-section"><label class="form-subtitle">Message</label>
+                    <textarea name="message" class="contact-form-field" id="contact-form-message"></textarea></span>
+                    <br>
+                    <input type="submit" value="Send">
+                </form>
+		</div>
+		
+		<div class="foot-credits foot-credits-intro" align="center">
+		<a href="https://github.com/khyleB"><img src="imgs/github.png"></a> <a href="https://www.linkedin.com/in/khyle-best-933120226/"><img src="imgs/linkedin.png"></a> <a href="/contact"><img src="imgs/email2.png"></a>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('f7U6sL_ItsZwSCKdU');
+            })();
+        </script>
+		
+		<script type="text/javascript" src="/about-script.js"></script>
+		
+	</body>
+</html>

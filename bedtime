@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Bedtime Blues</title>
+
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Limelight&display=swap">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600;700&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="/index-style.css">
+	</head>
+
+	<body>
+		<header id="header">
+			<div align="center">
+				<div id="logo">
+				<img id="logo" src="imgs/logo.png">
+				<div class="centered"><p id="logo-text">K.BEST</p></div>
+			</div>
+				<nav id="full-navbar">
+					<span class="navbar-text" id="dropdown-button">
+						<button class="nav-style" id="menubutton" onclick="location.href='/dev-portfolio'">Web Dev
+						</button>
+						
+						<div class="dropdown-contents">
+							<a href="https://khyleb.github.io/SH0RT_C1RCU1T/">SH0RT_C1RCU1T</a>
+							<a href="http://kbest.ca/portfolio-website">Portfolio Website</a>
+							<a href="http://kbest.ca/space-meanies/">Space Meanies</a>
+							<a href="http://kbest.ca/simon-says/">Simon Says</a>
+						</div>
+						
+					</span>
+
+					<span class="navbar-text" id="dropdown-button">
+						<button class="nav-style" id="menubutton" onclick="location.href='/design-portfolio'">Design
+						</button>
+
+						<div class="dropdown-contents">
+
+							<a href="/logos">Logo Redesigns</a>
+							<a href="/robo">Buffer</a>
+							<a href="/corners">Corners</a>
+							<a href="/drum">Drum Dictionary Cover</a>
+							<a href="/breaking">Breaking</a>
+							<a href="/kitchen">Nothing to Eat</a>
+							<a href="/macaroni">Step-By-Step Macaroni</a>
+							<a href="/bedtime">Bedtime Blues</a>
+							<a href="/contact">In Contact</a>
+						</div>
+					</span>
+
+					<span class="navbar-text"><button class="nav-style" onclick="location.href='/about'">Contact</button></span>
+				</nav>
+			</div>
+		</header>
+
+		<div align="center" class="portfolio-page">
+
+			<h1>Bedtime Blues</h1>
+			<hr>
+			<p>Set of sleep-themed graphics for a private client</p>
+			<p>Adobe Illustrator, 2022</p>
+			<hr>
+            <br>
+			<div class="portfolio-sizes">
+				<img class="portfolio-piece" src="imgs/bedtime.png">
+			</div>
+				</div>
+		
+		<div class="foot-credits foot-credits-intro" align="center">
+		<a href="https://github.com/khyleB"><img src="imgs/github.png"></a> <a href="https://www.linkedin.com/in/khyle-best-933120226/"><img src="imgs/linkedin.png"></a> <a href="/contact"><img src="imgs/email2.png"></a>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Says</title>
+  
+  <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index-style.css">
+</head>
+
+<body>
+    <header id="header">
+		<div align="center">
+			<nav id="full-navbar">
+				<span class="navbar-text" id="dropdown-button">
+					<button class="nav-style" id="menubutton" onclick="location.href='/dev-portfolio'">Web Dev
+					</button>
+
+					<div class="dropdown-contents">
+
+						<a href="https://khyleb.github.io/MATR1X_0VERL0AD/">MATR1X 0VERL0AD</a>
+					</div>
+				</span>
+
+				<span class="navbar-text" id="dropdown-button">
+					<button class="nav-style" id="menubutton" onclick="location.href='/design-portfolio'">Design
+					</button>
+
+					<div class="dropdown-contents">
+
+						<a href="/logos">Logo Redesigns</a>
+						<a href="/robo">Buffer</a>
+						<a href="/corners">Corners</a>
+						<a href="/drum">Drum Dictionary Cover</a>
+						<a href="/breaking">Breaking</a>
+						<a href="/kitchen">Nothing to Eat</a>
+						<a href="/macaroni">Step-By-Step Macaroni</a>
+						<a href="/bedtime">Bedtime Blues</a>
+						<a href="/contact">In Contact</a>
+					</div>
+				</span>
+
+				<span class="navbar-text"><button class="nav-style" onclick="location.href='/about'">Contact</button></span>
+			</nav>
+				
+			<nav id="mobile-menu">
+				<span class="navbar-text" id="dropdown-button">
+					<button class="nav-style" id="menubutton" onclick="location.href='/portfolio'">Menu
+					</button>
+
+				<div class="dropdown-contents">
+					<a href="/dev-portfolio">Web Dev</a>
+					<a href="/design-portfolio">Design</a>
+					<a href="/contact">Contact</a>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="foot-credits foot-credits-intro" align="center">
+        <a href="https://github.com/khyleB"><img src="imgs/github.png"></a> <a href="https://www.linkedin.com/in/khyle-best-933120226/"><img src="imgs/linkedin.png"></a> <a href="/contact"><img src="imgs/email2.png"></a>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+  <script src="game.js"></script>
+</body>
+
+</html>
