@@ -10,7 +10,7 @@
 /*CSS for form div*/
 #contact-form-container {
     display: block;
-    min-width: 65%;
+    width: 65%;
     margin: auto;
     border: 1px solid grey;
     border-radius: 25px;
