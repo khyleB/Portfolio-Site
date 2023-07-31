@@ -10,6 +10,3 @@ form.on('submit', function(event) {
         console.log('the form has been reset')
     })
 })
-
-/*form.on("submit", form.html("<h3>Message sent</h3><br><p>Thank you!</p>")
-)*/
