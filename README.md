@@ -1,4 +1,4 @@
-[![banner](imgs/portfolio-banner.png)](https://kbest.ca)
+[![banner](imgs/Site-Banner.png)](https://kbest.ca)
 
 ## Description
 Since I needed a place to display my projects and commissioned work and also wanted to practice HTML, CSS & JavaScript I decided to make a portfolio webpage. The goal of this project was to create a website with a contact form, and dedicated pages for each project, while paying attention to simple design and bold spacing.
